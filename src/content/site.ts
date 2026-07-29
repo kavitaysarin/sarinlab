@@ -33,7 +33,7 @@ export const SITE = {
 
   // Used for absolute URLs in metadata (Open Graph, canonical, sitemap).
   // TODO: set to the final production URL (custom domain or GitHub Pages URL).
-  url: "https://kavitaysarin.github.io/labwebsite",
+  url: "https://kavitaysarin.github.io/sarinlab",
 
   // Public lab contact (already public on the live site).
   email: "ahoj@stanford.edu",
