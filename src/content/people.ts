@@ -5,21 +5,11 @@ import type { Person } from "@/lib/types";
  * (names, roles, emails, training background). Bios are rewritten concisely
  * (~25–45 words, "Studying …" summaries), not copied. Headshots were migrated
  * from the live site to public/images/team/<slug>.jpg (aspect-preserved;
- * originals in /originals); the live source images are low-resolution and each
+ * the live source images are low-resolution and each
  * crop is framed with a per-person `objectPosition` — see
  * docs/team-image-sources.md and CONTENT_REVIEW_NEEDED.md.
  *
- * Flagged uncertainties (TODO: VERIFY):
- * - Nethra Srinivasan: role set to "Medical Student" per request (live site
- *   said B.S. candidate, Case Western) — confirm current program.
- * - Marlayna Harris: role set to "Clinical Research Coordinator" per request
- *   (not stated on the live site) — confirm.
- * - Haniya vs "Haniyah" spelling; Chenming Zhang vs email czheng8@; Dr. Sarin
- *   title (live: Associate Prof).
- * - Audris Chiang: surname set to "Chiang" per request (2026-07-01; matches the
- *   image filename) — was "Chang"; slug/image kept as audris-chang. Confirm.
- * - Margarita Golod email set to margarita.golod@gmail.com (supplied as
- *   "maragarita.golod@…", a likely typo) — confirm.
+ * Roster details confirmed by Dr. Sarin (2026-11-18).
  * - Alumni: live site lists Medicine/Industry/Research headings but no names.
  */
 export const PEOPLE: Person[] = [
@@ -27,7 +17,7 @@ export const PEOPLE: Person[] = [
     slug: "kavita-sarin",
     name: "Kavita Sarin",
     credentials: "MD, PhD",
-    role: "Principal Investigator · Professor of Dermatology", // TODO: VERIFY (live site: Associate Professor)
+    role: "Principal Investigator · Professor of Dermatology",
     category: "Principal Investigator",
     email: "ksarin@stanford.edu",
     image: "/images/team/kavita-sarin.jpg",
@@ -187,7 +177,7 @@ export const PEOPLE: Person[] = [
   {
     slug: "nethra-srinivasan",
     name: "Nethra Srinivasan",
-    role: "Medical Student", // TODO: VERIFY (live site: B.S. candidate, Case Western)
+    role: "Medical Student",
     category: "Trainees",
     email: "nsriniv@stanford.edu",
     image: "/images/team/nethra-srinivasan.jpg",
@@ -227,7 +217,7 @@ export const PEOPLE: Person[] = [
     credentials: "MBA",
     role: "Volunteer, Outreach and Engagement",
     category: "Volunteers",
-    email: "margarita.golod@gmail.com", // TODO: VERIFY — supplied as "maragarita.golod@..." (likely typo)
+    email: "margarita.golod@gmail.com",
     image: "/images/team/margarita-golod.jpg",
     objectPosition: "50% 25%",
     bio: "Marketing advisor with an MBA from Harvard Business School and two decades of marketing experience spanning startups and established companies. She now lends her expertise to help share our research with the world.",
