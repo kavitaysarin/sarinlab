@@ -5,8 +5,7 @@ import type { GalleryImage } from "@/lib/types";
  * (sarinlab.stanford.edu/lab-photos), migrated 2026-06-30 in the original
  * carousel order. People-focused photos only (no scientific figures, OCT,
  * histology, or publication graphics). One screenshot was excluded; no exact
- * duplicates remained after de-duping the CDN list. Originals preserved in
- * public/images/lab-photos/originals/; display copies (JPEG, long side ≤1600px,
+ * duplicates remained after de-duping the CDN list. Display copies (JPEG, long side ≤1600px,
  * natural aspect) in public/images/lab-photos/. Inventory + selection rationale:
  * LAB_PHOTO_INVENTORY.md.
  *
