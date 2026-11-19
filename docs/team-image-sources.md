@@ -1,5 +1,7 @@
 # Team headshot — asset inventory & sources
 
+> **2026-11-18:** the `originals/` folders were removed from the repo so they are no longer downloadable from sarinlab.com. Keep full-resolution originals offline; only display copies live in `public/images/`.
+
 Headshots migrated from the live Sarin Lab `/team` page (Squarespace) on 2026-06-30.
 Originals preserved in `public/images/team/originals/`. Display images in
 `public/images/team/<slug>.jpg` are aspect-preserved (resized to fit, never
