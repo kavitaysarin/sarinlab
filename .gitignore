@@ -79,3 +79,6 @@ desktop.ini
 .vscode/
 *~
 *.swp
+
+# Keep full-resolution originals out of the published site (everything in public/ is downloadable)
+public/images/**/originals/
