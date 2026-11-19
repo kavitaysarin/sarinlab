@@ -1,5 +1,7 @@
 # Lab Photos — carousel inventory & curation
 
+> **2026-11-18:** the `originals/` folders were removed from the repo so they are no longer downloadable from sarinlab.com. Keep full-resolution originals offline; only display copies live in `public/images/`.
+
 Source: the live Sarin Lab photo carousel — https://sarinlab.stanford.edu/lab-photos
 (inventoried 2026-06-30). All images are on the Squarespace CDN under base
 `https://images.squarespace-cdn.com/content/v1/58df29fb6a4963762c662cf5/`.
