@@ -3,7 +3,7 @@
  *
  * NONTECHNICAL EDITORS: this is the safest file to edit. Change the contact
  * details, metrics, or social links here and they update everywhere on the
- * site. Items marked TODO need a real value before launch.
+ * site.
  */
 
 export type SocialLink = {
@@ -32,8 +32,8 @@ export const SITE = {
     "The Sarin Lab at Stanford University School of Medicine uses genetics, molecular profiling, advanced imaging, artificial intelligence, and clinical research to study the skin as a sensor for disease.",
 
   // Used for absolute URLs in metadata (Open Graph, canonical, sitemap).
-  // TODO: set to the final production URL (custom domain or GitHub Pages URL).
-  url: "https://kavitaysarin.github.io/sarinlab",
+  // Production domain (custom domain on GitHub Pages).
+  url: "https://sarinlab.com",
 
   // Public lab contact (already public on the live site).
   email: "ahoj@stanford.edu",
