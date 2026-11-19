@@ -4,7 +4,7 @@ import type { Collaborator } from "@/lib/types";
  * Collaborators — grouped by domain. Names, credentials, titles, institutions,
  * lab names, and profile links verified against official Stanford pages
  * (June 2026). Official Stanford profile photos in
- * public/images/collaborators/<slug>.jpg (originals in /originals; sources in
+ * public/images/collaborators/<slug>.jpg (sources in
  * docs/collaborator-image-sources.md). Yonatan Winetraub's photo was supplied
  * by the lab. Each card carries one expertise sentence and one collaboration
  * sentence (no biographies).
