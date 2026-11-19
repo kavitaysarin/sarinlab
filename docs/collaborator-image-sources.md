@@ -1,5 +1,7 @@
 # Collaborator headshot — asset inventory & sources
 
+> **2026-11-18:** the `originals/` folders were removed from the repo so they are no longer downloadable from sarinlab.com. Keep full-resolution originals offline; only display copies live in `public/images/`.
+
 Portraits migrated 2026-06-30. Originals preserved in
 `public/images/collaborators/originals/`; display copies (re-encoded JPG) in
 `public/images/collaborators/<slug>.jpg`. Each is framed in a 4:5 card via CSS
